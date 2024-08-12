@@ -1,0 +1,70 @@
+/*general styles*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*INDEX*/
+/*NAV*/
+.navbar-nav .nav-gap {
+  margin-right: 20px; /* Adjust the gap as needed */
+}
+
+.navbar-nav .nav-gap:last-child {
+  margin-right: 0; /* Removes extra margin on the last item */
+}
+
+.carousel-item {
+  height: 80vh; /* Fullscreen height */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Crossfade effect */
+.carousel-item {
+  transition: opacity 3s ease-in-out;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right,
+.carousel-item:not(.active) {
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+/*FOOTER*/
+.social-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.4rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+.social-icon {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #767676;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
