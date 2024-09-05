@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="Eugenia Demarchi - Biography" />
+    <meta name="description" content="Eugenia Demarchi - Visual Artist. Contact form" />
     <meta name="author" content="Eugenia Demarchi" />
     <meta charset="utf-8" />
     <meta
@@ -9,9 +9,10 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    />
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -148,37 +149,103 @@
       </div>
     </header>
 
-    <main id="aboutMe" class="p-sm-2 p-lg-4">
-      <div class="container-lg mt-4 p-lg-5 my-lg-5">
+    <main id="contact" class="p-sm-2 p-lg-4">
+      <div class="container-lg mt-4 p-lg-5 my-lg-2">
         <div class="row justify-content-center align-items-center g-5">
+        
+
           <div class="row justify-content-center my-5">
-            <div class="col-lg-6 col-12 mb-4">
-              <h1 class="sobreMi display-4 text-muted">About me</h1>
+                       <!-- Image Column -->
+        
+                       <div
+                       class="col-lg-6 col-12 d-flex flex-wrap justify-content-center align-items-center"
+                     >
+              
+                       <h1 class="contacth1 display-4  text-muted ">Get in touch</h1>
+                  
+                       <img
+                         src="./IMAGENES/CONTACTO/coralPerfil.jpg"
+                         alt="Coral, handmade textile artwork by Eugenia Demarchi."
+                         class="img-fluid"
+                         loading="lazy"
+                       />
+                     </div>
+            <!-- Form Column -->
+            <div class="col-lg-6 col-12 ">
+              <form action= https://formspree.io/f/xanwezvd method="POST">
+                <label for="email" class="mail form-label">Email address:</label>
+                <div class="mb-4 input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-envelope-fill"></i
+                  ></span>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="e.g.example@mario.com"
+                  />
+                  <span class="input-group-text">
+                    <span
+                      class="tt"
+                      data-bs-placement="bottom"
+                      title="Enter an email address we can reply to"
+                    >
+                      <i class="bi bi-question-circle text-muted"></i>
+                    </span>
+                  </span>
+                </div>
 
-              <p class="description lead my-4 pr-5">
-                Bachelor's degree and Professor in Visual Arts <br />
-                (National University of the Arts of Argentina -2015/2023-).
-                <br />
-                I have participated in exhibitions in both galleries and public
-                art institutions, including Galería Pasaje17, Ex-Esma (Espacio
-                Cuatro Columnas), Contemporary Arts Exhibition Centre Casona de
-                los Olivera, Jardín Botánico Carlos Thays and Quinta El Ombú,
-                San Fernando's Art Exhibition Centre. <br />
-                In 2015, the National Salon of Visual Arts selected my work
-                "Body Tissues" in the Textile Art category.
-              </p>
-            </div>
+                <label for="name" class="name form-label">Name:</label>
+                <div class="mb-4 input-group">
+                  <span class="input-group-text"
+                    ><i class="bi bi-person-fill"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="e.g Mario"
+                  />
+                  <span class="input-group-text">
+                    <span
+                      class="tt"
+                      data-bs-placement="bottom"
+                      title="Pretty self explanatory really..."
+                    >
+                      <i class="bi bi-question-circle text-muted"></i>
+                    </span>
+                  </span>
+                </div>
 
-            <div
-              class="col-lg-6 col-12 d-flex flex-wrap justify-content-center align-items-center mb-lg-5"
-            >
-              <img
-                class="img-fluid"
-                src="./IMAGENES/BIOGRAFIA/perfil.jpg"
-                alt="Eugenia Demarchi"
-                style="border-radius: 2%"
-                loading="lazy"
-              />
+                <label for="subject" class="subject form-label"
+                  >What is your question about:</label
+                >
+                <div class="input-group mb-4">
+                  <span class="input-group-text"
+                    ><i class="bi bi-chat-right-dots-fill"></i
+                  ></span>
+                  <select class="form-select" id="subject">
+                    <option class="exhsub" value="content" selected>Exhibition query</option>
+                    <option class="prisub"  value="pricing">Pricing query</option>
+                    <option class="othsub" value="other">Other query</option>
+                  </select>
+                </div>
+
+                <div class="form-floating mb-4 mt-5">
+                  <textarea
+                    class="form-control"
+                    id="query"
+                    style="height: 140px"
+                  ></textarea>
+                  <label class="message" for="query">Your query...</label>
+                </div>
+
+                <div class="mb-4 text-center">
+                  <button type="submit" class="buttonSubmit btn btn-secondary">
+                    Submit
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -186,8 +253,8 @@
     </main>
 
     <footer class="bg-light pt-3">
-      <div class="container text-center text md left">
-        <div class="row text-center text-md-left">
+      <div class="container text-center text md-left">
+        <div class="row text-center text-md left">
           <div class="col-md-6 col-lg-8 col-xl-9 mx-auto mt-2">
             <p
               class="lead text-uppercase mb-2 mb-md-2 fs-md-3 text-center text-muted"
@@ -216,9 +283,7 @@
                 </a>
               </li>
             </ul>
-            <p class="lead text-center text-secondary" id="visualArtist">
-              Visual Artist.
-            </p>
+            <p class="lead text-center text-secondary" id="visualArtist">Visual Artist.</p>
             <p class="lead text-center text-secondary">
               Copyright © 2024. Eugenia Demarchi
             </p>
@@ -229,13 +294,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript\db.js" defer></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
   </body>
 </html>

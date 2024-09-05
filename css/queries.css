@@ -1,7 +1,0 @@
-/*INDEX*/
-@media (max-width: 576px) {
-  .text-uppercase mb-4 mb-md-2 fs-5 fs-md-3 text-center text-muted custom-h5 {
-    font-size: 1rem; /* Smaller font size for mobile */
-    margin-bottom: 1rem; /* Adjust bottom margin for mobile */
-  }
-}
