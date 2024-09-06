@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="description" content="Eugenia Demarchi - Visual Artist. Contact form" />
-    <meta name="author" content="Eugenia Demarchi" />
     <meta charset="utf-8" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="description"
+      content="Eugenia Demarchi - Visual Artist. Contact form"
     />
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-  />
-
+    <meta name="author" content="Eugenia Demarchi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+/>
     <link rel="icon" href="./IMAGENES/logo.png" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Eugenia Demarchi</title>
   </head>
   <body>
-    <header class="navbar navbar-expand-lg bg-body-tertiary">
+    <header class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
       <div
         class="container-fluid d-flex align-items-center justify-content-between"
       >
@@ -66,7 +65,6 @@
                 class="nav-link"
                 aria-current="page"
                 href="./about.html"
-                style="font-size: 1.4rem"
                 id="about"
                 >About</a
               >
@@ -79,12 +77,11 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                style="font-size: 1.4rem"
                 id="exhibitions"
               >
                 Exhibitions
               </a>
-              <ul class="dropdown-menu" style="font-size: 1.4rem">
+              <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="./nadar.html"
                     >Nadar en Agua Dulce</a
@@ -115,12 +112,11 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                style="font-size: 1.4rem"
                 id="works"
               >
                 Works
               </a>
-              <ul class="dropdown-menu" style="font-size: 1.4rem">
+              <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="./coral.html">Coral</a></li>
                 <li>
                   <a class="dropdown-item" href="./lorquianas.html"
@@ -139,7 +135,6 @@
               <a
                 class="nav-link"
                 href="./contacto.html"
-                style="font-size: 1.4rem"
                 id="contactMe"
                 >Contact Me</a
               >
@@ -152,28 +147,27 @@
     <main id="contact" class="p-sm-2 p-lg-4">
       <div class="container-lg mt-4 p-lg-5 my-lg-2">
         <div class="row justify-content-center align-items-center g-5">
-        
-
           <div class="row justify-content-center my-5">
-                       <!-- Image Column -->
-        
-                       <div
-                       class="col-lg-6 col-12 d-flex flex-wrap justify-content-center align-items-center"
-                     >
-              
-                       <h1 class="contacth1 display-4  text-muted ">Get in touch</h1>
-                  
-                       <img
-                         src="./IMAGENES/CONTACTO/coralPerfil.jpg"
-                         alt="Coral, handmade textile artwork by Eugenia Demarchi."
-                         class="img-fluid"
-                         loading="lazy"
-                       />
-                     </div>
+            <!-- Image Column -->
+
+            <div
+              class="col-lg-6 col-12 d-flex flex-wrap justify-content-center align-items-center"
+            >
+              <h1 class="contacth1 display-4 text-muted">Get in touch</h1>
+
+              <img
+                src="./IMAGENES/CONTACTO/coralPerfil.jpg"
+                alt="Coral, handmade textile artwork by Eugenia Demarchi."
+                class="img-fluid"
+                loading="lazy"
+              />
+            </div>
             <!-- Form Column -->
-            <div class="col-lg-6 col-12 ">
-              <form action= https://formspree.io/f/xanwezvd method="POST">
-                <label for="email" class="mail form-label">Email address:</label>
+            <div class="col-lg-6 col-12">
+              <form action="https://formspree.io/f/xanwezvd" method="POST">
+                <label for="email" class="mail form-label"
+                  >Email address:</label
+                >
                 <div class="mb-4 input-group">
                   <span class="input-group-text"
                     ><i class="bi bi-envelope-fill"></i
@@ -182,13 +176,15 @@
                     type="email"
                     class="form-control"
                     id="email"
-                    placeholder="e.g.example@mario.com"
+                    name="email"
+                    placeholder="e.g., example@mario.com"
+                    required
                   />
                   <span class="input-group-text">
                     <span
                       class="tt"
                       data-bs-placement="bottom"
-                      title="Enter an email address we can reply to"
+                      title="Enter an email address we can reply to/ Ingrese su email"
                     >
                       <i class="bi bi-question-circle text-muted"></i>
                     </span>
@@ -204,13 +200,16 @@
                     type="text"
                     class="form-control"
                     id="name"
+                    name="name"
                     placeholder="e.g Mario"
+                    required
                   />
                   <span class="input-group-text">
                     <span
                       class="tt"
                       data-bs-placement="bottom"
-                      title="Pretty self explanatory really..."
+                      title="Please enter your full name/ Ingrese su nombre completo."
+                      id="idtt"
                     >
                       <i class="bi bi-question-circle text-muted"></i>
                     </span>
@@ -224,9 +223,18 @@
                   <span class="input-group-text"
                     ><i class="bi bi-chat-right-dots-fill"></i
                   ></span>
-                  <select class="form-select" id="subject">
-                    <option class="exhsub" value="content" selected>Exhibition query</option>
-                    <option class="prisub"  value="pricing">Pricing query</option>
+                  <select
+                    class="form-select"
+                    id="subject"
+                    name="subject"
+                    required
+                  >
+                    <option class="exhsub" value="content" selected>
+                      Exhibition query
+                    </option>
+                    <option class="prisub" value="pricing">
+                      Pricing query
+                    </option>
                     <option class="othsub" value="other">Other query</option>
                   </select>
                 </div>
@@ -236,12 +244,14 @@
                     class="form-control"
                     id="query"
                     style="height: 140px"
+                    name="query"
+                    placeholder="Add your messsage here"
                   ></textarea>
                   <label class="message" for="query">Your query...</label>
                 </div>
 
                 <div class="mb-4 text-center">
-                  <button type="submit" class="buttonSubmit btn btn-secondary">
+                  <button type="submit" class="btn btn-secondary">
                     Submit
                   </button>
                 </div>
@@ -256,7 +266,7 @@
       <div class="container text-center text md-left">
         <div class="row text-center text-md left">
           <div class="col-md-6 col-lg-8 col-xl-9 mx-auto mt-2">
-            <p
+            <a href="#navbar" style="text-decoration: none;"><p
               class="lead text-uppercase mb-2 mb-md-2 fs-md-3 text-center text-muted"
               style="letter-spacing: 0.7rem"
             >
@@ -264,15 +274,11 @@
             </p>
             <ul class="social-links list-unstyled">
               <li>
-                <a
-                  href="https://www.instagram.com/eugeniademarchi/?hl=en"
-                  target="_blank"
-                  class="footer-link"
-                  title="Instagram"
-                >
-                  <i class="bi bi-instagram"></i
-                ></a>
+                <a href="https://www.instagram.com/eugeniademarchi/?hl=en" target="_blank" class="footer-link" title="Instagram">
+                  <i class="bi bi-instagram"></i>
+                </a>
               </li>
+
               <li>
                 <a
                   href="https://www.linkedin.com/in/eugenia-demarchi-434a65280/"
@@ -283,7 +289,9 @@
                 </a>
               </li>
             </ul>
-            <p class="lead text-center text-secondary" id="visualArtist">Visual Artist.</p>
+            <p class="lead text-center text-secondary" id="visualArtist">
+              Visual Artist.
+            </p>
             <p class="lead text-center text-secondary">
               Copyright © 2024. Eugenia Demarchi
             </p>
@@ -293,6 +301,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="javascript\db.js" defer></script>
+    <script src="./javascript/db.js" defer></script>
   </body>
 </html>

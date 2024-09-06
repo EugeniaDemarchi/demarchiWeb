@@ -7,12 +7,11 @@ var data = {
     visualArtist: "Visual artist",
     sobreMi: "About Me",
     description:
-      "       Bachelor's degree and Professor in Visual Arts(National University of the Arts of Argentina -2015/2023-). I have participated in exhibitions in both galleries and publicart institutions, including Galería Pasaje17, Ex-Esma (Espacio Cuatro Columnas), Contemporary Arts Exhibition Centre Casona de los Olivera, Jardín Botánico Carlos Thays and Quinta El Ombú, San Fernando's Art Exhibition Centre. In 2015, the National Salon of Visual Arts selected my work Body Tissues in the Textile Art category.",
+      "       Bachelor's degree and Professor in Visual Arts (National University of the Arts of Argentina -2015/2023-). I have participated in exhibitions in both galleries and publicart institutions, including Galería Pasaje17, Ex-Esma (Espacio Cuatro Columnas), Contemporary Arts Exhibition Centre Casona de los Olivera, Jardín Botánico Carlos Thays and Quinta El Ombú, San Fernando's Art Exhibition Centre. In 2015, the National Salon of Visual Arts selected my work Body Tissues in the Textile Art category.",
     pasaje17: "Contemporary art gallery Pasaje17 ",
     natinalSalon: "National Salon of visual arts",
     casona:
       "Contemporary art space Casona de los Olivera, Parque Avellaneda./ Espacio Cuatro Columnas, Ex-ESMA",
-
     botanico:
       "Contemporary art space Carlos Thays, Jardín Botánico./  Contemporary art space Casona de los Olivera, Parque Avellaneda.",
     primitiveLand:
@@ -75,7 +74,7 @@ var data = {
 const langEl = document.querySelector(".langWrap");
 const links = document.querySelectorAll(".langWrap a");
 const sections = document.querySelectorAll(
-  "#about, #exhibitions, #works, #contactMe, #visualArtist, .sobreMi, .description, .pasaje17, .natinalSalon, .casona,  .botanico, .primitiveLand, .descriptionLorquianas, .smallPieces, .meidumPieces, .largePieces, .arrow, .descriptionPunto, .descriptionLuz, .contacth1, .mail, .name, .subject, .exhsub, .prisub, .othsub, .message, .buttonSubmit "
+  "#about, #exhibitions, #works, #contactMe, #visualArtist, .sobreMi, .description, .pasaje17, .natinalSalon, .casona,  .botanico, .primitiveLand, .descriptionLorquianas, .smallPieces, .meidumPieces, .largePieces, .arrow, .descriptionPunto, .descriptionLuz, .contacth1, .mail, .name, .subject, .exhsub, .prisub, .othsub, .message, .buttonSubmit  "
 );
 
 links.forEach((el) => {
