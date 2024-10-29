@@ -176,4 +176,23 @@ footer {
   .description {
     font-size: 1.2rem;
   }
+  .scroll-to-top {
+    position: fixed;
+    bottom: 250px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .scroll-to-top:hover {
+    background-color: #555;
+  }
 }
