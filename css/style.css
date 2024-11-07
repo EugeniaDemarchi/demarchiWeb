@@ -3,7 +3,13 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/*IMG*/
+.blurred {
+  filter: blur(10px);
+  transition: filter 0.5s ease;
+}
+.blurred.loaded {
+  filter: blur(0);
 }
 
 /*INDEX*/
