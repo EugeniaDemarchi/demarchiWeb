@@ -51,16 +51,15 @@ html {
   outline: none;
   box-shadow: none;
 }
-/* Customize the hamburger icon */
+/* hamburger icon */
 .navbar-toggler-icon {
-  background-image: none; /* Removes default background */
-  width: 30px;
+  background-image: none;
   height: 3px;
-  background-color: black; /* Set the color of the lines */
+  background-color: black;
   position: relative;
 }
 
-/* Create the top and bottom lines of the hamburger */
+/* top and bottom lines of the hamburger */
 .navbar-toggler-icon::before,
 .navbar-toggler-icon::after {
   content: "";
@@ -73,11 +72,11 @@ html {
 }
 
 .navbar-toggler-icon::before {
-  top: -8px; /* Adjust distance for top line */
+  top: -8px;
 }
 
 .navbar-toggler-icon::after {
-  bottom: -8px; /* Adjust distance for bottom line */
+  bottom: -8px;
 }
 
 .dropdown-menu {
@@ -85,7 +84,6 @@ html {
   text-transform: none;
 }
 
-/* Optional: Remove hover background on dropdown items */
 .dropdown-item:hover {
   background-color: #f3f3f3;
 }
@@ -159,14 +157,14 @@ html {
   color: #555;
 }
 footer {
-  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Shadow at the top */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /*MEDIA QUERIES*/
 @media (max-width: 576px) {
   /* Bootstrap's breakpoint for small devices */
   #demarchi {
-    font-size: 1.2rem; /* Smaller font size for mobile */
+    font-size: 1.2rem;
     margin-bottom: 0;
   }
   #demarchiFooter {
