@@ -2,15 +2,15 @@
 html {
   scroll-behavior: smooth;
 }
-/*Transition between pages*/
-html.is-changing .transition-main {
-  transition: opacity 500ms ease-in-out;
-}
 
-html.is-animating .transition-main {
+body.page-exit {
   opacity: 0;
+  transition: opacity 0.7s ease;
 }
-
+body {
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
 /*IMG*/
 .blurred {
   filter: blur(10px);

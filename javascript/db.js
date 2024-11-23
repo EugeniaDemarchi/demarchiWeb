@@ -76,7 +76,6 @@ const links = document.querySelectorAll(".langWrap a");
 const sections = document.querySelectorAll(
   "#about, #exhibitions, #works, #contactMe, #visualArtist, .sobreMi, .description, .pasaje17, .natinalSalon, .casona,  .botanico, .primitiveLand, .descriptionLorquianas, .smallPieces, .meidumPieces, .largePieces, .arrow, .descriptionPunto, .descriptionLuz, .contacth1, .mail, .name, .subject, .exhsub, .prisub, .othsub, .message, .buttonSubmit  "
 );
-
 links.forEach((el) => {
   el.addEventListener("click", () => {
     const attr = el.getAttribute("language");
