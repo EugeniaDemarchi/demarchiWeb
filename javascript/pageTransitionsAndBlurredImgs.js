@@ -16,5 +16,6 @@ function handleBlurredImages() {
 handleBlurredImages();
 
 swup.hooks.on("page:view", () => {
+  initLightGallery();
   handleBlurredImages();
 });
