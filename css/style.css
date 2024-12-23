@@ -175,6 +175,29 @@ body {
   width: 100%;
   object-fit: cover;
 }
+/* lightGallery background color */
+.lg-backdrop {
+  background-color: white !important;
+}
+
+/* Remove the upper and lower gray transparent rectangles */
+.lg-toolbar,
+.lg-sub-html {
+  background: none !important; /* Remove background */
+  box-shadow: none !important; /* Remove shadows if any */
+}
+
+/* close button and other icons in dark gray */
+.lg-toolbar .lg-icon,
+.lg-controls .lg-next,
+.lg-controls .lg-prev {
+  color: darkgray !important; /* Set icon color to dark gray */
+}
+
+/* text */
+.lg-sub-html {
+  color: darkgray !important;
+}
 
 /*FOOTER*/
 .social-links {
