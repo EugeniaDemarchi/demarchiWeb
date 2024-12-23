@@ -8,6 +8,13 @@ var data = {
     sobreMi: "About Me",
     description:
       "       Bachelor's degree and Professor in Visual Arts (National University of the Arts of Argentina -2015/2023-). I have participated in exhibitions in both galleries and publicart institutions, including Galería Pasaje17, Ex-Esma (Espacio Cuatro Columnas), Contemporary Arts Exhibition Centre Casona de los Olivera, Jardín Botánico Carlos Thays and Quinta El Ombú, San Fernando's Art Exhibition Centre. In 2015, the National Salon of Visual Arts selected my work Body Tissues in the Textile Art category.",
+    nadar: "To swim on sweet waters",
+    tejidos: "Body tissues ",
+    pan: "Brad and roses",
+    aguas: "Murmuring waters",
+    tierra: " Primitive land",
+    punto: "Blind spot",
+    luz: "Lilac light",
     pasaje17: "Contemporary art gallery Pasaje17 ",
     natinalSalon: "National Salon of visual arts",
     casona:
@@ -43,6 +50,13 @@ var data = {
     sobreMi: "Sobre mí",
     description:
       "Licenciada y Profesora en Artes Visuales (U.N.A 2015). Estudió pintura en el taller de Alejandro Avakian e hizo clínica de obra con Gabriel Baggio. Ha participado de exposiciones tanto en galerías como en instituciones artísticas del ámbito público, entre ellas, Galería Pasaje17, Ex-Esma (Espacio Cuatro Columnas), Centro de Exposición de arte Contemporáneo Casona de los Olivera, Jardín Botánico Carlos Thays y Quinta El Ombú, Espacio de Arte Contemporáneo de San Fernando. El Salón Nacional ha seleccionado un trabajo de la artista en el año 2015 para la categoría Arte Textil. ",
+    nadar: "Nadar en agua dulce",
+    tejidos: "Tejidos",
+    pan: "Pan y rosas",
+    aguas: "Aguas rumorosas",
+    tierra: "Tierra primitiva",
+    punto: "Punto ciego",
+    luz: "Luz lila",
     pasaje17: "Galería de Arte Contemporáneo Pasaje 17",
     natinalSalon: "Salón Nacional de Artes Visuales",
     casona:
@@ -74,7 +88,7 @@ var data = {
 const langEl = document.querySelector(".langWrap");
 const links = document.querySelectorAll(".langWrap a");
 const sections = document.querySelectorAll(
-  "#about, #exhibitions, #works, #contactMe, #visualArtist, .sobreMi, .description, .pasaje17, .natinalSalon, .casona,  .botanico, .primitiveLand, .descriptionLorquianas, .smallPieces, .meidumPieces, .largePieces, .arrow, .descriptionPunto, .descriptionLuz, .contacth1, .mail, .name, .subject, .exhsub, .prisub, .othsub, .message, .buttonSubmit  "
+  "#about, #exhibitions, #works, #contactMe, #visualArtist, .sobreMi, .description, .pasaje17, .nadar,  .tejidos, .pan, .aguas, .tierra, .punto, .luz,  .natinalSalon, .casona,  .botanico, .primitiveLand, .descriptionLorquianas, .smallPieces, .meidumPieces, .largePieces, .arrow, .descriptionPunto, .descriptionLuz, .contacth1, .mail, .name, .subject, .exhsub, .prisub, .othsub, .message, .buttonSubmit  "
 );
 links.forEach((el) => {
   el.addEventListener("click", () => {

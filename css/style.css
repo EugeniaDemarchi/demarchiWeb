@@ -117,6 +117,43 @@ body {
   color: black;
   font-weight: bolder;
 }
+/*EXHIBICIONES*/
+.nadar,
+.tejidos,
+.pan,
+.aguas,
+.tierra {
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+.nadar:hover,
+.tejidos:hover,
+.pan:hover,
+.aguas:hover,
+.tierra:hover {
+  color: #686767 !important;
+}
+#links {
+  width: 30%;
+}
+/*OBRA*/
+.coral,
+.lorquianas,
+.punto,
+.luz {
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+.coral:hover,
+.lorquianas:hover,
+.punto:hover,
+.luz:hover {
+  color: #686767 !important;
+}
+#linksWorks {
+  width: 25%;
+}
+
 /*GALLERIES*/
 .gallery {
   display: flex;
@@ -127,8 +164,8 @@ body {
 }
 .gallery a {
   height: 200px;
-  width: 300px;
-  margin: 20px;
+  width: 200px;
+  margin: 5px;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.07);
@@ -138,14 +175,7 @@ body {
   width: 100%;
   object-fit: cover;
 }
-/*EXHIBITION*/
-#links {
-  width: 30%;
-}
-/*WORKS*/
-#linksWorks {
-  width: 25%;
-}
+
 /*FOOTER*/
 .social-links {
   list-style: none;
@@ -176,37 +206,8 @@ footer {
 }
 
 /*MEDIA QUERIES*/
-@media (max-width: 320px) {
-  #links,
-  #linksWorks {
-    width: 70%;
-  }
-}
-@media (max-width: 375px) {
-  #links,
-  #linksWorks {
-    width: 70%;
-  }
-}
-@media (max-width: 425px) {
-  #links,
-  #linksWorks {
-    width: 70%;
-  }
-}
-@media (max-width: 576px) {
-  /* Bootstrap's breakpoint for small devices */
-  #demarchi {
-    font-size: 1.2rem;
-    margin-bottom: 0;
-  }
-  #links,
-  #linksWorks {
-    width: 70%;
-  }
-  #demarchiFooter {
-    letter-spacing: 0.5rem;
-  }
+
+@media (max-width: 1024px) {
 }
 
 @media (max-width: 768px) {
@@ -249,21 +250,47 @@ footer {
     opacity: 0;
     visibility: hidden;
   }
+}
+@media (max-width: 576px) {
+  #demarchi {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
   #links,
   #linksWorks {
     width: 70%;
-    /*display: flex;
-    flex-direction: column;
-    align-items: center; */
+  }
+  #demarchiFooter {
+    letter-spacing: 0.5rem;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 425px) {
   #links,
   #linksWorks {
-    width: 50%;
-    /*   width: 10%;
-    display: flex;
-    flex-direction: row;
-    align-items: center; */
+    width: 70%;
+  }
+  #demarchi {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 375px) {
+  #links,
+  #linksWorks {
+    width: 70%;
+  }
+  #demarchi {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 320px) {
+  #demarchi {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  #links,
+  #linksWorks {
+    width: 70%;
   }
 }

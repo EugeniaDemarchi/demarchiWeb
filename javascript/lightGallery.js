@@ -1,5 +1,5 @@
 // Initialize LightGallery on page load
-initLightGallery();
+//initLightGallery();
 
 function initLightGallery() {
   const galleries = document.querySelectorAll(".gallery");
