@@ -45,60 +45,26 @@ img {
 */
 /*MEDIA QUERIES*/
 @media (max-width: 2560px) {
+  .divLorquianas {
+    height: 35rem;
+  }
 }
 @media (max-width: 1024px) {
 }
 
 @media (max-width: 768px) {
-  h1.sobreMi {
-    font-size: 2rem;
-  }
-
-  .description {
-    font-size: 1.2rem;
-  }
 }
 @media (max-width: 576px) {
-  #demarchi {
-    font-size: 1.2rem;
-    margin-bottom: 0;
+  .img-logo {
+    width: 15rem;
   }
-  #links,
-  #linksWorks {
-    width: 70%;
-  }
-
   #demarchiFooter {
     letter-spacing: 0.5rem;
   }
 }
 @media (max-width: 425px) {
-  #links,
-  #linksWorks {
-    width: 70%;
-  }
-  #demarchi {
-    font-size: 1.2rem;
-    margin-bottom: 0;
-  }
 }
 @media (max-width: 375px) {
-  #links,
-  #linksWorks {
-    width: 70%;
-  }
-  #demarchi {
-    font-size: 1.1rem;
-    margin-bottom: 0;
-  }
 }
 @media (max-width: 320px) {
-  #demarchi {
-    font-size: 1rem;
-    margin-bottom: 0;
-  }
-  #links,
-  #linksWorks {
-    width: 70%;
-  }
 }
