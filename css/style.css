@@ -206,8 +206,73 @@ footer {
 }
 
 /*MEDIA QUERIES*/
+@media (max-width: 2560px) {
+  .scroll-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    visibility: visible;
+  }
 
+  .scroll-to-top:hover {
+    background-color: #555;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #555;
+  }
+
+  .scroll-to-top.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 @media (max-width: 1024px) {
+  .scroll-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #555;
+  }
+
+  .scroll-to-top:hover {
+    background-color: #555;
+  }
+
+  .scroll-to-top.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 768px) {

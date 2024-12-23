@@ -1,4 +1,4 @@
-section {
+/* section {
   padding: 80px 0;
 }
 .carousel-item {
@@ -28,8 +28,8 @@ img {
 }
 .gallery a {
   height: 200px;
-  width: 300px;
-  margin: 20px;
+  width: 200px;
+  margin: 5px;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 2rem 3rem 0 rgba(0, 0, 0, 0.07);
@@ -41,4 +41,64 @@ img {
 }
 #gallery-modal .modal-img {
   width: 100%;
+}
+*/
+/*MEDIA QUERIES*/
+@media (max-width: 2560px) {
+}
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  h1.sobreMi {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  #demarchi {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  #links,
+  #linksWorks {
+    width: 70%;
+  }
+
+  #demarchiFooter {
+    letter-spacing: 0.5rem;
+  }
+}
+@media (max-width: 425px) {
+  #links,
+  #linksWorks {
+    width: 70%;
+  }
+  #demarchi {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 375px) {
+  #links,
+  #linksWorks {
+    width: 70%;
+  }
+  #demarchi {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 320px) {
+  #demarchi {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  #links,
+  #linksWorks {
+    width: 70%;
+  }
 }
