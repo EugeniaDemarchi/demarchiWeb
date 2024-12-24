@@ -175,44 +175,7 @@ body {
   width: 100%;
   object-fit: cover;
 }
-/*Galleries overlay effect*/
-.contenedor {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-}
 
-.imagen {
-  width: 100%;
-  object-fit: cover;
-}
-.overlay {
-  position: absolute;
-  transition: all 0.3s ease;
-  opacity: 0;
-  background-color: #eee;
-}
-.contenedor:hover .overlay {
-  opacity: 1;
-}
-.texto {
-  color: white;
-  font-family: sans-serif;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-}
-.overlayFade {
-  color: black;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #fdfdfde7;
-}
 /* lightGallery background color */
 .lg-backdrop {
   background-color: white !important;
@@ -231,10 +194,19 @@ body {
 .lg-controls .lg-prev {
   color: darkgray !important; /* Set icon color to dark gray */
 }
-
+.lg-fade {
+}
 /* text */
 .lg-sub-html {
-  color: darkgray !important;
+  color: darkgrey !important;
+  font-family: "Roboto", sans-serif;
+}
+.lg-sub-html h4 {
+  font-size: 1.4rem !important;
+  font-weight: 200;
+}
+.lg-sub-html p {
+  font-size: 1.2rem !important;
 }
 
 /*FOOTER*/
@@ -398,6 +370,13 @@ footer {
   #demarchi {
     font-size: 1.2rem;
     margin-bottom: 0;
+  }
+  .lg-sub-html h4 {
+    font-size: 1.2rem !important;
+    font-weight: 200;
+  }
+  .lg-sub-html p {
+    font-size: 1rem !important;
   }
 }
 @media (max-width: 375px) {
