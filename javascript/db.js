@@ -36,7 +36,8 @@ var data = {
     arrow: "Visit website",
     descriptionPunto:
       "Mixed media paintings. Approximate dimensions of 10x15 cm.",
-    descriptionLuz: " Paintings inspired by Alejandra Pizarnik's poetry.",
+    descriptionLuz:
+      " Paintings inspired by Alejandra Pizarnik's poetry. Mixed media paintings. 14 x 11 cm.",
     contacth1: "Get in touch",
     mail: "Email address:",
     name: "Name",
@@ -84,7 +85,8 @@ var data = {
     largePieces: "Piezas grandes",
     arrow: "Página web",
     descriptionPunto: "Técnicas mixtas. Medidas aproximadas de 10 x 15 cms. ",
-    descriptionLuz: "Pinturas inspiradas en la obra de Alejandra Pizarnik.",
+    descriptionLuz:
+      "Pinturas inspiradas en la obra de Alejandra Pizarnik. Técnicas mixtas de 14 x 11 cms.",
     contacth1: "Contacto",
     mail: "E-mail:",
     name: "Nombre:",
