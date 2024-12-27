@@ -16,20 +16,26 @@ var data = {
     punto: "Blind spot",
     luz: "Lilac light",
     pasaje17: "Contemporary art gallery Pasaje17 ",
+    descripcionAguas:
+      "Textile art intervention inspired by García Lorca's play 'Yerma'.",
     natinalSalon: "National Salon of visual arts",
     casona:
       "Contemporary art space Casona de los Olivera, Parque Avellaneda./ Espacio Cuatro Columnas, Ex-ESMA",
     botanico:
       "Contemporary art space Carlos Thays, Jardín Botánico./  Contemporary art space Casona de los Olivera, Parque Avellaneda.",
     primitiveLand:
-      " Group exhibition The spontaneous life of the senses. Contemporary art space Casona de los Olivera, Parque Avellaneda.  Art exhibition on climate change.",
+      "Contemporary art space Casona de los Olivera, Parque Avellaneda.  Art exhibition on climate change.",
+    descripcionTierra: "Art exhibition on climate change.",
+    descripcionCoral:
+      " Textile sculpture. Approximate dimensions: 100 x 60 x 30 cm.",
     descriptionLorquianas:
       " Textile hand-made flowers inspired by Federico García Lorca's art work.",
     smallPieces: "Small Pieces",
     meidumPieces: "Medium Pieces",
     largePieces: "Large pieces",
     arrow: "Visit website",
-    descriptionPunto: "Mixed media. Approximate dimensions of 10x15 cm.",
+    descriptionPunto:
+      "Mixed media paintings. Approximate dimensions of 10x15 cm.",
     descriptionLuz: " Paintings inspired by Alejandra Pizarnik's poetry.",
     contacth1: "Get in touch",
     mail: "Email address:",
@@ -43,10 +49,10 @@ var data = {
   },
   spanish: {
     about: "Sobre mí",
-    exhibitions: "Muestras",
+    exhibitions: "Exhibiciones",
     works: "Obra",
     contactMe: "Contacto",
-    visualArtist: "Artista visual",
+    visualArtist: "Artista visual.",
     sobreMi: "Sobre mí",
     description:
       "Licenciada y Profesora en Artes Visuales (U.N.A 2015). Estudió pintura en el taller de Alejandro Avakian e hizo clínica de obra con Gabriel Baggio. Ha participado de exposiciones tanto en galerías como en instituciones artísticas del ámbito público, entre ellas, Galería Pasaje17, Ex-Esma (Espacio Cuatro Columnas), Centro de Exposición de arte Contemporáneo Casona de los Olivera, Jardín Botánico Carlos Thays y Quinta El Ombú, Espacio de Arte Contemporáneo de San Fernando. El Salón Nacional ha seleccionado un trabajo de la artista en el año 2015 para la categoría Arte Textil. ",
@@ -58,6 +64,8 @@ var data = {
     punto: "Punto ciego",
     luz: "Luz lila",
     pasaje17: "Galería de Arte Contemporáneo Pasaje 17",
+    descripcionAguas:
+      "Intervención textil inspirada en la obra 'Yerma' de García Lorca.",
     natinalSalon: "Salón Nacional de Artes Visuales",
     casona:
       "Espacio de Arte Contemporáneo Casona de los Olivera, Parque Avellaneda./  Espacio Cuatro Columnas, Ex-Esma.",
@@ -65,7 +73,10 @@ var data = {
     botanico:
       "Espacio de arte contemporáneo Carlos Thays, Jardín Botánico./ Espacio de arte contemporáneo Casona de los Olivera, Parque Avellaneda.",
     primitiveLand:
-      "Muestra grupal La vida espontánea de los sentidos. Espacio de arte contemporáneo Casona de los Olivera, Parque Avellaneda. Exhibición en torno al cambio climático.",
+      "Espacio de arte contemporáneo Casona de los Olivera, Parque Avellaneda. Exhibición en torno al cambio climático.",
+    descripcionTierra: "Exhibición en torno al cambio climático.",
+    descripcionCoral:
+      "Ecultura textil. Medidas aproximadas: 100 x 60 x 30 cms.",
     descriptionLorquianas:
       "Textiles inspirados en las obras teatrales de Federico García Lorca.",
     smallPieces: "Piezas pequeñas",
@@ -88,7 +99,7 @@ var data = {
 const langEl = document.querySelector(".langWrap");
 const links = document.querySelectorAll(".langWrap a");
 const sections = document.querySelectorAll(
-  "#about, #exhibitions, #works, #contactMe, #visualArtist, .sobreMi, .description, .pasaje17, .nadar,  .tejidos, .pan, .aguas, .tierra, .punto, .luz,  .natinalSalon, .casona,  .botanico, .primitiveLand, .descriptionLorquianas, .smallPieces, .meidumPieces, .largePieces, .arrow, .descriptionPunto, .descriptionLuz, .contacth1, .mail, .name, .subject, .exhsub, .prisub, .othsub, .message, .buttonSubmit  "
+  "#about, #exhibitions, #works, #contactMe, #visualArtist, .sobreMi, .description, .pasaje17, .descripcionAguas, .nadar,  .tejidos, .pan, .aguas, .tierra, .punto, .luz,  .natinalSalon, .casona,  .botanico, .primitiveLand, .descripcionTierra, .descripcionCoral,   .descriptionLorquianas, .smallPieces, .meidumPieces, .largePieces, .arrow, .descriptionPunto, .descriptionLuz, .contacth1, .mail, .name, .subject, .exhsub, .prisub, .othsub, .message, .buttonSubmit  "
 );
 links.forEach((el) => {
   el.addEventListener("click", () => {
