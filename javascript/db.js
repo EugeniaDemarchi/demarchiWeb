@@ -10,7 +10,7 @@ var data = {
       "       Bachelor's degree and Professor in Visual Arts (National University of the Arts of Argentina -2015/2023-). I have participated in exhibitions in both galleries and publicart institutions, including Galería Pasaje17, Ex-Esma (Espacio Cuatro Columnas), Contemporary Arts Exhibition Centre Casona de los Olivera, Jardín Botánico Carlos Thays and Quinta El Ombú, San Fernando's Art Exhibition Centre. In 2015, the National Salon of Visual Arts selected my work Body Tissues in the Textile Art category.",
     nadar: "To swim on sweet waters",
     tejidos: "Body tissues ",
-    pan: "Brad and roses",
+    pan: "Bread and roses",
     aguas: "Murmuring waters",
     tierra: " Primitive land",
     punto: "Blind spot",
