@@ -181,6 +181,11 @@ body {
   background-color: white !important;
 }
 
+/* Override LightGallery grab cursor */
+.lg-outer.lg-grab img.lg-object {
+  cursor: pointer !important; /* Or use 'default' */
+}
+
 /* Remove the upper and lower gray transparent rectangles */
 .lg-toolbar,
 .lg-sub-html {
