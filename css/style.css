@@ -21,6 +21,13 @@ body {
 }
 
 /*INDEX*/
+/* .bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ */
+
 .carousel-item {
   height: 67vh;
   overflow: hidden;
@@ -31,18 +38,34 @@ body {
   width: 100%;
 }
 /*NAV*/
+.plus-jakarta-sans {
+  font-family: "Plus Jakarta Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 #demarchi {
   color: black;
   transition: color 0.3s ease-in-out;
+  text-transform: uppercase;
 }
+
 #demarchi:hover {
   color: grey;
+}
+.navbar-brand {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-item {
   text-transform: uppercase;
   font-size: 1.2rem;
 }
+
 .nav-item:hover {
   color: #555;
 }
@@ -373,6 +396,9 @@ footer {
   #demarchi {
     font-size: 1.2rem;
     margin-bottom: 0;
+  }
+  .navbar-brand {
+    height: 20px;
   }
   .lg-sub-html h4 {
     font-size: 1.2rem !important;
