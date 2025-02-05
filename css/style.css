@@ -45,15 +45,13 @@ body {
   font-style: normal;
 }
 
-#demarchi {
-  color: black;
-  transition: color 0.3s ease-in-out;
-  text-transform: uppercase;
+.navbar-brand {
+  transition: opacity 0.3s ease-in-out;
+}
+.navbar-brand:hover {
+  opacity: 0.6;
 }
 
-#demarchi:hover {
-  color: grey;
-}
 .navbar-brand {
   height: 80px;
   display: flex;
@@ -233,6 +231,13 @@ body {
 }
 .lg-sub-html p {
   font-size: 1.2rem !important;
+}
+/*LORQUIANAS*/
+.footer-logo .img-logo {
+  transition: opacity 0.3s ease-in-out;
+}
+.footer-logo:hover .img-logo {
+  opacity: 0.6;
 }
 
 /*FOOTER*/
