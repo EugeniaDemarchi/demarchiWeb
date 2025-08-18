@@ -1,4 +1,4 @@
-var data = {
+const data = {
   english: {
     about: "About",
     exhibitions: "Exhibitions",
@@ -103,26 +103,26 @@ const links = document.querySelectorAll(".langWrap a");
 const sections = document.querySelectorAll(
   "#about, #exhibitions, #works, #contactMe, #visualArtist, .sobreMi, .description, .pasaje17, .descripcionAguas, .nadar,  .tejidos, .pan, .aguas, .tierra, .punto, .luz,  .natinalSalon, .casona,  .botanico, .primitiveLand, .descripcionTierra, .descripcionCoral,   .descriptionLorquianas, .smallPieces, .meidumPieces, .largePieces, .arrow, .descriptionPunto, .descriptionLuz, .contacth1, .mail, .name, .subject, .exhsub, .prisub, .othsub, .message, .buttonSubmit  "
 );
+
+function translateSection(section, lang) {
+  const classKey = section.classList[0];
+  const idKey = section.id;
+
+  if (data[lang][classKey]) {
+    section.textContent = data[lang][classKey];
+  }
+
+  if (data[lang][idKey]) {
+    section.textContent = data[lang][idKey];
+  }
+}
+
 links.forEach((el) => {
   el.addEventListener("click", () => {
     const attr = el.getAttribute("language");
 
-    sections.forEach((section) => {
-      const classKey = section.classList[0];
-      const idKey = section.id;
+    sections.forEach((section) => translateSection(section, attr));
 
-      // Traducción usando clase
-      if (data[attr][classKey]) {
-        section.textContent = data[attr][classKey];
-      }
-
-      // Traducción usando identificador
-      if (data[attr][idKey]) {
-        section.textContent = data[attr][idKey];
-      }
-    });
-
-    // Cambiar la clase activa
     document.querySelector(".active").classList.remove("active");
     el.classList.add("active");
   });

@@ -14,5 +14,4 @@ function initLightGallery() {
   });
 }
 
-// Initialize LightGallery on page load
 initLightGallery();
