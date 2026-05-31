@@ -4,7 +4,11 @@ Personal portfolio website: **Eugenia Demarchi**, a visual artist based in Argen
 
 ## Live Site
 
-[eugeniademarchi.com](https://eugeniademarchi.com) *(or update with the actual URL)*
+<img width="2700" height="1004" alt="image" src="https://github.com/user-attachments/assets/036476e1-304e-4189-a1c6-952107a266d4" />
+
+
+[eugeniademarchi.com](https://eugeniademarchi.com) 
+
 
 ## Features
 
