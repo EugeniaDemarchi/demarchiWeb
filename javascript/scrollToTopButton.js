@@ -1,4 +1,5 @@
 const scrollToTopButton = document.querySelector(".scroll-to-top");
+
 window.addEventListener("scroll", () => {
   if (window.scrollY > 1000) {
     scrollToTopButton.classList.remove("hidden");
@@ -6,6 +7,7 @@ window.addEventListener("scroll", () => {
     scrollToTopButton.classList.add("hidden");
   }
 });
+
 scrollToTopButton.addEventListener("click", (e) => {
   e.preventDefault();
   window.scrollTo({ top: 0, behavior: "smooth" });

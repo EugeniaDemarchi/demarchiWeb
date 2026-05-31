@@ -285,7 +285,9 @@ footer {
     font-family: Arial, sans-serif;
     border-radius: 50%;
     text-decoration: none;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     opacity: 1;
     visibility: visible;
@@ -319,7 +321,9 @@ footer {
     font-family: Arial, sans-serif;
     border-radius: 50%;
     text-decoration: none;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     opacity: 1;
     visibility: visible;
@@ -361,7 +365,9 @@ footer {
     font-family: Arial, sans-serif;
     border-radius: 50%;
     text-decoration: none;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     opacity: 1;
     visibility: visible;

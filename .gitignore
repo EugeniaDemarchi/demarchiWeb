@@ -1,0 +1,9 @@
+# Editor
+.vscode/
+
+# Working/draft image copies
+IMAGENES/MUESTRAS/
+
+# OS
+.DS_Store
+Thumbs.db
