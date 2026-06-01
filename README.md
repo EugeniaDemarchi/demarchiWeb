@@ -4,7 +4,9 @@ Personal portfolio website for **Eugenia Demarchi**, a visual artist based in Ar
 
 ## Live Site
 
-[eugeniademarchi.com](https://eugeniademarchi.com) *(or update with the actual URL)*
+<img width="1891" height="796" alt="image" src="./IMAGENES/image.png" />
+
+[www.eugeniademarchi.netlify.app/](https://eugeniademarchi.netlify.app/) _(or update with the actual URL)_
 
 ## Features
 
@@ -20,13 +22,13 @@ Personal portfolio website for **Eugenia Demarchi**, a visual artist based in Ar
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Markup | HTML5 |
-| Styles | CSS3, Bootstrap 5.3, Bootstrap Icons 1.11 |
-| Scripts | Vanilla JavaScript (ES6) |
-| Fonts | Plus Jakarta Sans (Google Fonts) |
-| Gallery | lightGallery |
+| Layer   | Technology                                |
+| ------- | ----------------------------------------- |
+| Markup  | HTML5                                     |
+| Styles  | CSS3, Bootstrap 5.3, Bootstrap Icons 1.11 |
+| Scripts | Vanilla JavaScript (ES6)                  |
+| Fonts   | Plus Jakarta Sans (Google Fonts)          |
+| Gallery | lightGallery                              |
 
 No build step, no bundler, no framework — plain static files.
 
