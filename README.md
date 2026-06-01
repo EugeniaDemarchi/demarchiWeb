@@ -6,7 +6,7 @@ Personal portfolio website: **Eugenia Demarchi**, a visual artist based in Argen
 
 <img width="1891" height="796" alt="image" src="./IMAGENES/image.png" />
 
-[www.eugeniademarchi.netlify.app/](https://eugeniademarchi.netlify.app/) _(or update with the actual URL)_
+[www.eugeniademarchi.netlify.app/](https://eugeniademarchi.netlify.app/)
 
 ## Features
 
