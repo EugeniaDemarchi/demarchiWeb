@@ -1,6 +1,6 @@
 # Eugenia Demarchi — Visual Artist Portfolio
 
-Personal portfolio website for **Eugenia Demarchi**, a visual artist based in Argentina. The site showcases her artwork series, biography, and exhibition history, and includes a contact form.
+Personal portfolio website: **Eugenia Demarchi**, a visual artist based in Argentina. The site showcases artwork series, biography, and exhibition history, and includes a contact form.
 
 ## Live Site
 
